@@ -2,7 +2,7 @@ install:
 		pip install --upgrade pip && pip install -r requirements.txt
 
 test:
-		pytest --cov=hello -vv
+		pytest --cov=hello --cov=greeting -vv tests
 
 format:
 		black *.py
