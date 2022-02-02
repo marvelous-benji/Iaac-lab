@@ -26,3 +26,6 @@ jobs:
       - name: Format code with black
         run: |
           make format
+      - name: Static check
+        run: |
+          make static-check
